@@ -1,0 +1,42 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer-items ul li a {
+    text-decoration: none;
+    color: #000;
+}
+.footer-items ul li a:hover {
+    color: orangered;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.footer-wapper {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-items ul li {
+    font-size: 15px;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.footer-items .items-head {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.footer-items .logo-head {
+    font-weight: 600;
+    font-size: 30px;
+}

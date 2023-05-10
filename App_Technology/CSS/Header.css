@@ -1,0 +1,124 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-vex {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    border-bottom: 1px solid #DCDCDC;
+    box-shadow: 0px 0px 10px 0px #888888;
+}
+
+.logo-vex {
+    font-size: 32px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    pointer-events: none;
+}
+
+.navbar-vex a {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+.navicon-vex {
+    position: relative;
+    display: -webkit-inline-box;
+}
+
+    .navicon-vex i {
+        font-size: 18px;
+        color: #000;
+        text-decoration: none;
+        font-weight: 500;
+        margin-right: 20px;
+    }
+
+    .navicon-vex a {
+        text-decoration: none;
+    }
+
+.cart-items {
+    position: relative;
+    top: -11px;
+    right: 29px;
+    padding: 0px 5px 0px 5px;
+    background-color: white;
+    border-radius: 50%;
+    color: red;
+}
+/*////////////////////////*/
+.user-actions {
+    position: absolute;
+    background: #ccc;
+    width: 150px;
+    height: auto;
+    display: none;
+    right: -37px;
+    top: calc(100% + 5px);
+    z-index: 1;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 0px #000;
+}
+
+.titless {
+    margin: 0px;
+}
+
+
+.user-icon:hover .user-actions {
+    display: block;
+}
+
+.user-actions::before {
+    content: '';
+    background-color: #ccc;
+    display: inline-block;
+    padding: 6px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -4px;
+    left: 20px;
+}
+
+.user-actions ul {
+    padding: 10px 0;
+    margin: 0;
+    list-style: none;
+}
+
+.user-icon {
+    display: -webkit-inline-box;
+}
+
+.user-actions ul li {
+    padding: 10px 12px;
+    border-bottom: 1px solid #fff;
+}
+
+    .user-actions ul li:last-child {
+        border-bottom: none;
+    }
+
+    .user-actions ul li a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    .user-actions ul li:hover {
+        background-color: #fff;
+    }
